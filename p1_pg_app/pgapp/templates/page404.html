@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Password Generator App - Page 404</title>
+    <style>
+        body {
+            background-color: #f0f8ff; /* Light azure background */
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            padding: 40px;
+            background-color: #fff; /* White background */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 50px;
+            background-color: #000; /* Black background */
+            color: #fff; /* White text */
+            padding: 20px 40px;
+            border-radius: 30px;
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+        a {
+            font-size: 24px;
+            color: #000; /* Black text */
+            text-decoration: none;
+            background-color: #fff; /* White background */
+            padding: 10px 20px;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        a:hover {
+            background-color: #444; /* Dark grey background */
+            color: #fff; /* White text */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Page 404</h1>
+        <p>The page you are looking for could not be found.</p>
+        <a href="{% url 'home' %}">Home</a>
+    </div>
+</body>
+</html>
